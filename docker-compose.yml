@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  zadatak2:
+    image: ${DOCKER_REGISTRY-}zadatak2
+    build:
+      context: .
+      dockerfile: Dockerfile
